@@ -52,10 +52,10 @@
         default_layer {
             display-name = "COLEMAK";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E       &kp R      &kp T                             &kp UP                &kp Y        &kp U          &kp I       &kp O    &kp P          &kp BSPC
-&td0       &kp A  &kp S  &kp D       &kp F      &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J          &kp K       &kp L    &kp SEMICOLON  &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C       &kp V      &kp B      &kp SPACE              &kp DOWN              &kp N        &kp M          &kp COMMA   &kp DOT  &kp FSLH       &kp ESC
-                         &kp ESCAPE  &kp SPACE  &lt 3 TAB                                               &lt 3 ENTER  &kp BACKSPACE  &kp DELETE
+&kp TAB    &kp Q           &kp W           &kp E               &kp R             &kp T                             &kp UP                &kp Y        &kp U              &kp I        &kp O            &kp P                    &kp BSPC
+&td0       &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G                   &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &kp SQT
+&kp LCTRL  &kp Z           &kp X           &kp C               &kp V             &kp B      &kp SPACE              &kp DOWN              &kp N        &kp M              &kp COMMA    &kp DOT          &kp FSLH                 &kp ESC
+                                           &kp ESCAPE          &kp SPACE         &lt 3 TAB                                               &lt 3 ENTER  &kp BACKSPACE      &kp DELETE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
