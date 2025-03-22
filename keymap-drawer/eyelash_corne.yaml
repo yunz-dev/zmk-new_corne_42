@@ -1,43 +1,44 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   COLEMAK:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - F
-  - P
-  - B
+  - E
+  - R
+  - T
   - $$mdi:arrow-up-bold$$
-  - J
-  - L
-  - U
   - Y
-  - {t: ;, s: ':'}
+  - U
+  - I
+  - O
+  - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
   - A
-  - R
   - S
-  - T
+  - D
+  - F
   - G
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - M
-  - N
-  - E
-  - I
-  - O
+  - H
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
-  - D
   - V
+  - B
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
-  - K
-  - H
+  - N
+  - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
